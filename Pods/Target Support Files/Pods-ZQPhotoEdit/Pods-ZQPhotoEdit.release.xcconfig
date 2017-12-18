@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/MTBlockAlertView" "${PODS_ROOT}/Headers/Public/PEPhotoCropEditor" "${PODS_ROOT}/Headers/Public/TZImagePickerController"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FMDB" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/MJExtension" "$PODS_CONFIGURATION_BUILD_DIR/MTBlockAlertView" "$PODS_CONFIGURATION_BUILD_DIR/PEPhotoCropEditor" "$PODS_CONFIGURATION_BUILD_DIR/TZImagePickerController"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/MJExtension" -isystem "${PODS_ROOT}/Headers/Public/MTBlockAlertView" -isystem "${PODS_ROOT}/Headers/Public/PEPhotoCropEditor" -isystem "${PODS_ROOT}/Headers/Public/TZImagePickerController"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"MBProgressHUD" -l"MJExtension" -l"MTBlockAlertView" -l"PEPhotoCropEditor" -l"TZImagePickerController" -l"sqlite3" -framework "AVFoundation" -framework "CoreGraphics" -framework "QuartzCore"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

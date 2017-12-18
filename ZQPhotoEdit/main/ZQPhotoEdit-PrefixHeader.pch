@@ -1,0 +1,41 @@
+//
+//  ZQPhotoEdit-PrefixHeader.pch
+//  ZQPhotoEdit
+//
+//  Created by 肖兆强 on 2017/11/9.
+//  Copyright © 2017年 ZQDemo. All rights reserved.
+//
+
+#ifndef ZQPhotoEdit_PrefixHeader_pch
+#define ZQPhotoEdit_PrefixHeader_pch
+
+
+
+#endif /* ZQPhotoEdit_PrefixHeader_pch */
+
+#ifdef __OBJC__
+//#import "ZQUtil.h"
+#import "CenterControl.h"
+
+
+#ifdef DEBUG // 调试状态, 打开LOG功能
+#define ZQLog(...) NSLog(__VA_ARGS__)
+#else // 发布状态, 关闭LOG功能
+#define ZQLog(...)
+#endif
+
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:a]
+
+#define RGB(r,g,b) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1]
+
+//字体
+#define ZQFont(x) [UIFont systemFontOfSize:x]
+
+#define ImageDir [NSString stringWithFormat:@"%@/Documents/capturepng", NSHomeDirectory()]
+//datacache
+#define dataCache  @"t_dataCache"
+//RecordingTable
+#define RecordingTable  @"t_RecordingTable"
+
+#endif

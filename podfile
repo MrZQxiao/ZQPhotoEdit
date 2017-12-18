@@ -1,0 +1,9 @@
+platform :ios,'8.0'
+target 'ZQPhotoEdit' do
+	pod 'MJExtension'     
+	pod 'MTBlockAlertView'
+	pod 'MBProgressHUD'
+	pod 'FMDB'
+	pod 'PEPhotoCropEditor'
+	pod 'TZImagePickerController', '~> 1.7.7'
+end
