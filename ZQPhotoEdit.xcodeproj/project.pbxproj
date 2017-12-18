@@ -527,9 +527,9 @@
 			isa = PBXGroup;
 			children = (
 				093E605A1FE775D30062B690 /* ZQPhotoListController.m */,
-				093E605B1FE775D30062B690 /* ImageEditViewController.m */,
 				093E605C1FE775D30062B690 /* ZQPhotoListController.h */,
 				093E605D1FE775D30062B690 /* ImageEditViewController.h */,
+				093E605B1FE775D30062B690 /* ImageEditViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

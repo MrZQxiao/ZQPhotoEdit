@@ -7,18 +7,10 @@
 //
 
 #import "ImageEditViewController.h"
-#import "ZQImageCropController.h"
-#import "ZQImageRotationController.h"
-#import "ZQImageMosaicController.h"
-#import "ZQImageWatermarkController.h"
-#import "ZQImageTextController.h"
-#import "ZQImageTextController.h"
+#import "ZQImageEdit.h"
 #import "ImageEditTitleView.h"
-#import "ZQFilterController.h"
-#import "ZQBrightnessController.h"
 #import "RecordingSQLModel.h"
 #import "SqliteControl+Recording.h"
-
 #import "ImageEditToolBar.h"
 
 @interface ImageEditViewController ()<ImageEditToolBarDelegate>
